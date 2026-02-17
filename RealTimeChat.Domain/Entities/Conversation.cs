@@ -41,4 +41,3 @@ namespace RealTimeChat.Domain.Entities
 
     }
 }
-

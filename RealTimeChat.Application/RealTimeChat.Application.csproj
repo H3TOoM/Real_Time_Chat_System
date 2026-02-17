@@ -14,8 +14,4 @@
     <Folder Include="Behaviors\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\RTC.Domain\RealTimeChat.Domain.csproj" />
-  </ItemGroup>
-
 </Project>

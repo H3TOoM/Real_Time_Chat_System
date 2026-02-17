@@ -2,7 +2,7 @@
   <Folder Name="/src/">
     <Project Path="RealTimeChat.API/RealTimeChat.API.csproj" />
     <Project Path="RealTimeChat.Application/RealTimeChat.Application.csproj" />
+    <Project Path="RealTimeChat.Domain/RealTimeChat.Domain.csproj" Id="cb3e229d-710e-4333-a084-6ee11bd6b07c" />
     <Project Path="RealTimeChat.Infrastructure/RealTimeChat.Infrastructure.csproj" />
-    <Project Path="RTC.Domain/RealTimeChat.Domain.csproj" />
   </Folder>
 </Solution>
