@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
@@ -11,11 +11,11 @@ namespace RealTimeChat.Domain.Entities
         public int Id { get; set; }
 
         [Required, StringLength(100)]
-        public string UserName { get; private set; }
+        public string UserName { get; private set; } = null!;
 
         [Required, EmailAddress, StringLength(100)]
-        public string Email { get; private set; }
-        public string PasswordHash { get; private set; }
+        public string Email { get; private set; } = null!;
+        public string PasswordHash { get; private set; } = null!;
         public bool IsOnline { get; private set; }
         public DateTime CreatedAt { get; private set; }
 

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+using System;
 namespace RealTimeChat.Domain.Entities
 {
     public class Message
@@ -10,7 +7,7 @@ namespace RealTimeChat.Domain.Entities
         public int ConversationId { get; private set; }
         public int SenderId { get; private set; }
 
-        public string Content { get; private set; }
+        public string Content { get; private set; } = null!;
         public bool IsRead { get; private set; }
         public DateTime SentAt { get; private set; }
 
@@ -30,7 +27,6 @@ namespace RealTimeChat.Domain.Entities
 
         public void MarkAsRead()
         {
-            if (!IsRead) IsRead = true;
             IsRead = true;
         }
     }

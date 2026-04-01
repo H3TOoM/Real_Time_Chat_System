@@ -1,4 +1,7 @@
+using RealTimeChat.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddInfrastructure(builder.Configuration);
 
 // Add services to the container.
 
